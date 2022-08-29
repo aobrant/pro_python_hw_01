@@ -1,11 +1,18 @@
 import datetime
-from application.salary import calculate_salary as cs
-from application.db import get_employees as ge
+from application.salary import calculate_salary 
+from application.db.people import get_employees 
 
 
 
 
 if __name__ == '__main__':
+
+    d = datetime.datetime.now()
+    print(d)
+ 
+    calculate_salary()
+    get_employees()
     
 
-    pass
+
+    

@@ -1,4 +1,4 @@
-def calculate_salary(name,time):
+def calculate_salary():
 
 
-    pass
+    print("calculate_salary")
